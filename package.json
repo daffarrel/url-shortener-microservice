@@ -1,0 +1,24 @@
+{
+  "name": "url-shortener-micro-zombat",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node url-short.js",
+    "start": "node url-short.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zombat/url-shortener-microservice.git"
+  },
+  "author": "Raymond Rizzo",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/zombat/url-shortener-microservice/issues"
+  },
+  "homepage": "https://github.com/zombat/url-shortener-microservice#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongodb": "^2.2.25"
+  }
+}
